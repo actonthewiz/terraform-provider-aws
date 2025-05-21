@@ -3,5 +3,9 @@
 {
 	"name": "Go",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/go:1.23"
+	"image": "mcr.microsoft.com/devcontainers/go:1.23",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/terraform-asdf:2": {},
+		"ghcr.io/devcontainers/features/aws-cli:1": {}
+	}
 }
